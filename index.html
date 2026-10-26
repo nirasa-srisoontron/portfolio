@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nirasa Srisoontron — Data & Business Analyst Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fafafa;--fg:#1c1f26;--mut:#5b6270;--card:#fff;--line:#e3e6ec;--ac:#c8102e;--ac2:#14305c;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14161b;--fg:#eceef2;--mut:#a3aab8;--card:#1d2027;--line:#2d313b;--ac:#ff5c75;--ac2:#8db3f0;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#14161b;--fg:#eceef2;--mut:#a3aab8;--card:#1d2027;--line:#2d313b;--ac:#ff5c75;--ac2:#8db3f0;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 Sarabun,system-ui,sans-serif}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--line);display:flex;gap:18px;padding:12px 20px;overflow-x:auto;z-index:5}
+nav a{color:var(--mut);text-decoration:none;font-weight:600;white-space:nowrap}nav a:hover{color:var(--ac)}
+main{max-width:920px;margin:0 auto;padding:0 20px 60px}
+section{padding:48px 0 8px}
+h1{font-size:2.4rem;line-height:1.15;margin:.2em 0}
+h2{font-size:1.5rem;margin:0 0 18px;border-left:5px solid var(--ac);padding-left:12px}
+h3{margin:0 0 4px;font-size:1.2rem}
+.hero p{max-width:620px;color:var(--mut);font-size:1.1rem}
+.tag{display:inline-block;font-size:.8rem;border:1px solid var(--line);border-radius:99px;padding:2px 10px;margin:2px 4px 2px 0;color:var(--ac2)}
+.btn{display:inline-block;background:var(--ac);color:#fff;padding:9px 20px;border-radius:99px;text-decoration:none;font-weight:600;margin:6px 8px 0 0}
+.btn.o{background:none;border:1px solid var(--ac);color:var(--ac)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin-top:26px}
+.stat,.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.stat b{display:block;font-size:1.7rem;color:var(--ac)}.stat span{color:var(--mut);font-size:.9rem}
+.card{margin-bottom:20px}.card .meta{color:var(--mut);font-size:.9rem;margin-bottom:8px}
+.card h4{margin:14px 0 4px;color:var(--ac2);font-size:.95rem;text-transform:uppercase;letter-spacing:.04em}
+.card ul{margin:0;padding-left:20px}
+.bar{display:flex;align-items:center;gap:10px;margin:5px 0;font-size:.9rem}
+.bar i{display:block;height:10px;border-radius:5px;background:var(--ac)}
+.bar span:first-child{width:150px;flex:none;color:var(--mut)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.note{font-size:.85rem;color:var(--mut);font-style:italic}
+footer{text-align:center;color:var(--mut);padding:30px 0;border-top:1px solid var(--line)}
+</style></head><body>
+<nav><a href="#home">Home</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#contact">Contact</a></nav>
+<main>
+<section id="home" class="hero">
+<span class="tag">Data Analyst</span><span class="tag">Business Analyst</span><span class="tag">Information Studies · SWU</span>
+<h1>Nirasa Srisoontron</h1>
+<p>Fourth-year Information Studies student (GPA 3.78) who turns data and user needs into dashboards, databases and clear decisions. Looking for a Data Analyst / Business Analyst internship.</p>
+<a class="btn" href="#projects">View projects</a><a class="btn o" href="#contact">Contact me</a>
+<div class="stats"><div class="stat"><b>3.78</b><span>GPA / 4.00</span></div><div class="stat"><b>4</b><span>academic projects</span></div><div class="stat"><b>48</b><span>users tested a game I helped build</span></div><div class="stat"><b>24</b><span>digital resources cataloged</span></div></div>
+</section>
+
+<section id="projects"><h2>Projects</h2>
+
+<div class="card"><h3>SWU AI Guideline — Survey-Driven Learning Game</h3>
+<div class="meta">Course สศ 321 · Semester 2/2568 · Team of 8 · My role: storyboard, presentation, Figma prototype</div>
+<span class="tag">Google Forms</span><span class="tag">Design Sprint</span><span class="tag">Figma</span><span class="tag">Supabase (SQL)</span><span class="tag">Vercel</span>
+<h4>Problem</h4><p>Students did not understand the university’s Generative AI policy. A survey of 31 students showed 71% had heard of it but did not know the details.</p>
+<h4>What we built</h4><p>A scenario-based quiz game that turns the policy into 4 categories (should know, should do, prohibited, mandatory) with 10 situation levels, a summary infographic and video.</p>
+<h4>Results</h4>
+<div class="bar"><span>Usefulness in learning</span><i style="width:92%"></i><b>4.60</b></div>
+<div class="bar"><span>Ethics awareness</span><i style="width:91%"></i><b>4.56</b></div>
+<div class="bar"><span>Up-to-date content</span><i style="width:91%"></i><b>4.56</b></div>
+<div class="bar"><span>Media (infographic/video)</span><i style="width:91%"></i><b>4.54</b></div>
+<p class="note">Rated by 48 testers, scale 1–5. Feedback: font size too small on some pages; fixed in the next version.</p>
+<h4>Data insight</h4><p>From the answer logs, “prohibited” questions had the most wrong answers (68 of 126), showing which rules need clearer communication.</p>
+<a class="btn o" href="https://ailtrcy.vercel.app/">Play the game</a></div>
+
+<div class="card"><h3>Community Enterprise Development via Data Analytics &amp; AI</h3>
+<div class="meta">Oct – Nov 2025 · Individual/Team work</div>
+<span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">EDA</span><span class="tag">Power BI</span><span class="tag">DAX</span>
+<h4>What I did</h4><ul><li>Cleaned and integrated tourism open data with Pandas.</li><li>Ran EDA to find tourism trends and seasonal patterns.</li><li>Built Power BI dashboards with DAX and data modeling, plus visitor forecasts for 2024–2026.</li></ul>
+<a class="btn o" href="#">Power BI report (add link)</a></div>
+
+<div class="card"><h3>Digital Library Prototype — Google Sites &amp; SLiMS (SDG 16)</h3>
+<div class="meta">2026 · Team of 6 · Co-authored academic article</div>
+<span class="tag">SLiMS</span><span class="tag">Dublin Core</span><span class="tag">Metadata</span><span class="tag">Google Sites</span>
+<h4>What I did</h4><ul><li>Selected and cataloged 24 resources (articles, videos, e-books, journals) by relevance, authority, media variety and currency.</li><li>Described each with Dublin Core metadata and the tag “SDGs16”.</li><li>Designed a portal organized as Peace / Justice / Strong Institutions, linked to SLiMS search.</li></ul></div>
+
+<div class="card"><h3>Alumni Website</h3>
+<div class="meta">Mar – Apr 2025</div>
+<span class="tag">SQL</span><span class="tag">PHP</span><span class="tag">HTML/CSS</span>
+<ul><li>Designed a relational database schema.</li><li>Developed membership and search features in PHP.</li></ul></div>
+</section>
+
+<section id="skills"><h2>Skills</h2><div class="grid">
+<div class="card"><h3>Data</h3>SQL (MySQL, PostgreSQL) · Python (Pandas, NumPy) · EDA · data cleaning</div>
+<div class="card"><h3>Visualization</h3>Power BI (DAX) · Tableau · Excel</div>
+<div class="card"><h3>Analysis</h3>Requirements &amp; workflow analysis · survey design · descriptive statistics</div>
+<div class="card"><h3>Build &amp; Design</h3>PHP · HTML/CSS · Figma · LINE Messaging API</div></div>
+<h3>Certifications</h3><ul><li>Generative AI Foundations — Pearson / Certiport (Aug 2026)</li><li>Data Analysis with Python — IBM / Coursera (Nov 2025)</li><li>Building Web Applications in PHP — University of Michigan / Coursera (Apr 2025)</li><li>STAMP-SkillKamp Data Analyst Talent Assessment — passed (Mar 2026)</li></ul>
+</section>
+
+<section id="experience"><h2>Experience</h2>
+<div class="card"><h3>Online Store Admin</h3><div class="meta">Independent clothing shop · Sep – Dec 2024</div>Handled customer chat and orders; tracked sales and stock in Excel/Google Sheets and analyzed order trends.</div>
+<div class="card"><h3>SWU Open House Representative</h3><div class="meta">Information Studies Dept. · Nov 2024</div>Presented the program to prospective students at the booth.</div>
+</section>
+
+<section id="contact"><h2>Contact</h2>
+<p>Bangkok, Thailand · 098-985-6988<br><a href="mailto:srisoontron.nirasa@gmail.com">srisoontron.nirasa@gmail.com</a></p></section>
+</main>
+<footer>© 2026 Nirasa Srisoontron</footer>
+</body></html>
